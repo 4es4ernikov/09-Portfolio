@@ -38,3 +38,47 @@ main {
     height: auto;
     width: 200px;
 }
+/* projects*/
+.projects h2 {
+    display: flex;
+    justify-content: center;
+}
+.projects ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.projects ul img {
+    width: auto;
+    height: 200px;
+    padding: 10px;
+}
+/* footer*/
+footer  {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color:#D6E9F5 ;
+}
+
+/*contacts*/
+.contacts {
+    font-family: 'Quicksand', sans-serif;
+}
+.contacts h1 {
+    padding-left:10px;
+}
+.contacts img {
+    width: auto;
+    height: 200px;
+    padding: 10px;
+    padding-top:20px;
+}
+.contact-numbers {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color:#D6E9F5 ;
+}
