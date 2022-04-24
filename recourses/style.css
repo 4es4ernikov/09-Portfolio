@@ -82,3 +82,22 @@ footer  {
     font-family: 'Quicksand', sans-serif;
     background-color:#D6E9F5 ;
 }
+/*animation */
+.about-text {
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+@keyframes slidein {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+      }
+      60% {
+        transform: scale(1.2);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1);
+      }
+}
