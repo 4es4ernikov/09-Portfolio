@@ -101,3 +101,7 @@ footer  {
         transform: scale(1);
       }
 }
+#interact1:hover, #interact2:hover,#interact3:hover {
+    border: 1px solid blue
+}
+
