@@ -17,6 +17,7 @@ header ul a {
 }
 main {
     font-family: 'Quicksand', sans-serif;
+    /* about*/
 }
 .about {
     display: flex;
@@ -28,6 +29,7 @@ main {
     width: auto;
     height: 125px;
 }
+/* languages*/
 .languages {
     background-color:#D6E9F5 ;
     padding: 20px;
@@ -45,7 +47,8 @@ main {
 }
 .projects ul {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     list-style-type: none;
 }
 .projects ul img {
@@ -77,6 +80,7 @@ footer  {
 }
 .contact-numbers {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     padding-right: 15px;
     font-family: 'Quicksand', sans-serif;
@@ -105,3 +109,12 @@ footer  {
     border: 1px solid blue
 }
 
+@media only screen and (max-width: 640px) {
+    .languages {
+        flex-wrap: wrap;
+    }
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
